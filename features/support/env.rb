@@ -10,7 +10,7 @@ def desired_capabilities
   "platformVersion": "7.1.1",
   "deviceName": "emulator-5554",
   "app": "protect.budgetwatch_14.apk"
-}
+	}
 }
 end
 
