@@ -1,4 +1,4 @@
-class budgetapp
+module Budgetapp
 
 	def homepage
 		Pages::Homepage.new
@@ -19,19 +19,6 @@ class budgetapp
 	def expenses_page
 		Pages::ExpensesPage.new
 	end
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 end

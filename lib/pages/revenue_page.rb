@@ -1,1 +1,7 @@
-class Pages::RevenuePage < SitePrism::Page
+class RevenuePage 
+
+
+
+
+
+end

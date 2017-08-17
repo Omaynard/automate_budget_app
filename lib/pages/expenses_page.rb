@@ -1,1 +1,6 @@
-class Pages::ExpensesPage < SitePrism::Page
+class ExpensesPage
+
+
+
+
+end
