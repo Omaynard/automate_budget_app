@@ -15,6 +15,7 @@ class BudgetPage
 		add_name[0].type("Travel Money")
 	end
 
+
 	def add_value_to_value_textfield
 		add_value = find_elements(:id, "protect.budgetwatch:id/valueEdit")
 		add_value[0].type("700")
@@ -25,5 +26,14 @@ class BudgetPage
 		click_save_button[0].click
 	end
 
+	def add_value_to_value_textfield
+		add_value = find_elements(:id, "protect.budgetwatch:id/valueEdit")
+		add_value[0].type("700")
+	end
+
+	def click_save_button
+		click_save_button = find_elements(accessibility_id: 'Save')
+		click_save_button[0].click
+	end
 
 end
