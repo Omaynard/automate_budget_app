@@ -24,3 +24,5 @@ def click_save_button
 	click_save_button = find_elements(accessibility_id: 'Save')
 	click_save_button[0].click
 end
+
+end
