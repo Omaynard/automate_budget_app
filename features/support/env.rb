@@ -1,5 +1,8 @@
 require 'appium_lib'
 require 'cucumber'
+require 'require_all'
+
+require_all 'lib'
 
 World(Budgetapp)
 

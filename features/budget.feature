@@ -5,7 +5,7 @@ Scenario: As a user I can view the budget page
 
 	Given I am on the homepage
 	And I can see budgets or trancations
-	when i click on the budget
+	When i click on the budget
 	And I dont have a budget yet
 	Then It should tell me to set up a budget
 
