@@ -1,7 +1,7 @@
 require 'appium_lib'
 require 'cucumber'
 
-world(Budgetapp)
+World(Budgetapp)
 
 
 def desired_capabilities
