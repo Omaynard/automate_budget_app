@@ -1,1 +1,6 @@
-class Pages::Homepage < SitePrism::Page
+class Homepage 
+
+
+
+
+end

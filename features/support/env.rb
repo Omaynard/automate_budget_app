@@ -1,6 +1,8 @@
 require 'appium_lib'
 require 'cucumber'
 
+world(Budgetapp)
+
 
 def desired_capabilities
   {caps:{

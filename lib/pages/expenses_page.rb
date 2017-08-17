@@ -1,0 +1,6 @@
+class ExpensesPage
+
+
+
+
+end
