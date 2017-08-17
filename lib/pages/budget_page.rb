@@ -1,0 +1,1 @@
+class Pages::BudgetPage < SitePrism::Page

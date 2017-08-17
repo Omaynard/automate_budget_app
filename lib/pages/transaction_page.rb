@@ -1,0 +1,1 @@
+class Page::TransactionPage < SitePrism::Pages

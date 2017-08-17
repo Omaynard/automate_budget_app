@@ -1,0 +1,1 @@
+class Pages::RevenuePage < SitePrism::Page
