@@ -1,7 +1,8 @@
 require 'appium_lib'
 require 'cucumber'
+require_relative '../../lib/budgetapp'
 
-world(Budgetapp)
+World(Budgetapp)
 
 
 def desired_capabilities
