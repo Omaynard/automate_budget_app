@@ -1,23 +1,25 @@
+require 'require_all'
+
 module Budgetapp
 
 	def homepage
-		Pages::Homepage.new
+		Homepage.new
 	end
 
 	def budget_page
-		Pages::BudgetPage.new
+		BudgetPage.new
 	end
 
 	def transaction_page
-		Pages::TransactionPage.new
+		TransactionPage.new
 	end
 
 	def revenue_page
-		Pages::RevenuePage.new
+		RevenuePage.new
 	end
 
 	def expenses_page
-		Pages::ExpensesPage.new
+		ExpensesPage.new
 	end
 
 
